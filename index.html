@@ -1,0 +1,5 @@
+
+Card = namedtuple('Card', ['value', 'suit'])
+suits = ['hearts', 'diamonds', 'spades', 'clubs']
+cards = [Card(value, suit) for value in range(1, 14) for suit in suits]
+
